@@ -58,12 +58,12 @@ p {
 }
 
 .bg-dark {
-    color: #fff;
+    color: #6E038C;
     background-color: #222;
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: #c25ede;
 }
 
 section {
