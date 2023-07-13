@@ -43,8 +43,8 @@ def _create_recording_list(recording_dict):
 
 
 def build_practicals(index_file,
-					 json_filename="practicals.json",
-					 template_filename="practical_template.html"):
+					 json_filename="build/practicals.json",
+					 template_filename="build/practical_template.html"):
 	
 	with open(json_filename, "r") as f:
 		practicals_dict = json.load(f)
@@ -87,9 +87,9 @@ def build_practicals(index_file,
 
 
 def build_lectures(index_file,
-				   json_filename="lectures.json",
-				   lecture_template_filename="lecture_template.html",
-				   tutorial_template_filename="tutorial_template.html"):
+				   json_filename="build/lectures.json",
+				   lecture_template_filename="build/lecture_template.html",
+				   tutorial_template_filename="build/tutorial_template.html"):
 
 	with open(json_filename, "r") as f:
 		lectures_dict = json.load(f)
@@ -155,7 +155,7 @@ def build_lectures(index_file,
 
 
 def build_TA_list(index_file,
-				  json_filename="TAs.json"):
+				  json_filename="build/TAs.json"):
 	
 	with open(json_filename, "r") as f:
 		TA_dict = json.load(f)
@@ -213,7 +213,7 @@ def build_TA_list(index_file,
 
 if __name__ == '__main__':
 	
-	with open("index_template.html", "r") as f:
+	with open("build/index_template.html", "r") as f:
 		index_file = f.read()
 
 	index_file = build_TA_list(index_file)
