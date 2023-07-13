@@ -68,7 +68,7 @@ p {
 }
 
 .bg-dark {
-    color: var(--COLOR_1);
+    color: var(--WHITE);
     background-color: var(--COLOR_4) ;
 }
 
