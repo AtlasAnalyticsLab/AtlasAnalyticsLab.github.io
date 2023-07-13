@@ -64,7 +64,7 @@ p {
 }
 
 .bg-primary {
-    background-color: var(--WHITE);
+    background-color: var(--COLOR_3);
 }
 
 .bg-dark {
