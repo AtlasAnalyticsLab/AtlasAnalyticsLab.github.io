@@ -977,13 +977,13 @@ widget {
 .lecture-collapsible:after {
   content: '\271A'; /* Unicode character for "plus" sign (+) */
   font-size: 15px;
-  color: #f05f40;
+  color: #f299da;
   float: right;
   margin-left: 5px;
 }
 
 .lecture-active:after {
-  color: #f05f40;
+  color: #f299da;
   content: "\FF0D"; /* Unicode character for "minus" sign (-) */
   font-size: 15px;
 }
