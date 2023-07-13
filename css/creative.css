@@ -73,7 +73,7 @@ p {
 }
 
 .text-faded {
-    color: var(--COLOR_5)
+    color: var(--WHITE)
 }
 
 section {
@@ -219,7 +219,11 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
-    color: var(--COLOR_1)
+    ::selection {
+        background-color: var(--COLOR_3);
+        color: var(--WHITE);
+      }
+    
 }
 
 header .header-content .header-content-inner hr {
@@ -230,7 +234,10 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: var(--COLOR_1);
+    ::selection {
+        background-color: var(--COLOR_3);
+        color: var(--WHITE);
+      }
 }
 
 @media(min-width:768px) {
