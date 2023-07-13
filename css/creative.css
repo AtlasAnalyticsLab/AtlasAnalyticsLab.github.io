@@ -4,6 +4,16 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+:root{
+ --COLOR_1: #59121F;
+ --COLOR_2: #733944;
+ --COLOR_3: #A65362;
+ --COLOR_4: #F23054;
+ --COLOR_5: #733944;
+ --BLACK: #000000;
+ --WHITE: #FFFFFF;
+}
+
 html,
 body {
     width: 100%;
@@ -16,16 +26,16 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f299DA;
+    border-color: var(--COLOR_3);
     border-width: 3px;
 }
 
 hr.light {
-    border-color: #fff;
+    border-color: var(--WHITE);
 }
 
 a {
-    color: #f2b3e1;
+    color: var(--COLOR_3);
     /*text-decoration: underline;*/
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -34,7 +44,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #f299da;
+    color: var(--COLOR_3);
     /*font-weight: bold;*/
 }
 
@@ -54,16 +64,16 @@ p {
 }
 
 .bg-primary {
-    background-color: #f2b3e1;
+    background-color: var(--COLOR_3);
 }
 
 .bg-dark {
-    color: #6E038C;
-    background-color: #f2b3e1;
+    color: var(--COLOR_1);
+    background-color: var(--COLOR_4) ;
 }
 
 .text-faded {
-    color: #c25ede;
+    color: var(--COLOR_5)
 }
 
 section {
@@ -90,7 +100,7 @@ aside {
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #fff;
+    background-color: var(--WHITE);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -100,12 +110,12 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #f2b3e1;
+    color: var(--COLOR_3);
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #f299da;
+    color: var(--COLOR_3);
 }
 
 .navbar-default .nav > li>a,
@@ -118,12 +128,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f2b3e1;
+    color: var(--COLOR_3);
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f2b3e1!important;
+    color: var(--COLOR_3)!important;
     background-color: transparent;
 }
 
@@ -144,7 +154,7 @@ aside {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: var(--WHITE);
     }
 
     .navbar-default .nav > li>a,
@@ -164,12 +174,12 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f2b3e1;
+        color: var(--COLOR_3);
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #f299da;
+        color: var(--COLOR_2);
     }
 
     .navbar-default.affix .nav > li>a,
@@ -179,7 +189,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f2b3e1;
+        color: var(--COLOR_2);
     }
 }
 
@@ -209,7 +219,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
-    color: #6E038C
+    color: var(--COLOR_1)
 }
 
 header .header-content .header-content-inner hr {
@@ -220,7 +230,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: #6E038C;
+    color: var(--COLOR_1);
 }
 
 @media(min-width:768px) {
@@ -284,9 +294,9 @@ header .header-content .header-content-inner p {
     width: 100%;
     height: 100%;
     text-align: center;
-    color: #6E038C;
+    color: var(--COLOR_1);
     opacity: 0;
-    background: #f299da;
+    background: var(--COLOR_3);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -335,7 +345,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #f2b3e1;
+    color: var(--COLOR_3);
 }
 
 .running-text {
@@ -348,9 +358,9 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-    border-color: #fff;
+    border-color: var(--WHITE);
     color: #222;
-    background-color: #fff;
+    background-color: var(--WHITE);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -391,19 +401,19 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-    border-color: #fff;
-    background-color: #fff;
+    border-color: var(--WHITE);
+    background-color: var(--WHITE);
 }
 
 .btn-default .badge {
-    color: #fff;
+    color: var(--WHITE);
     background-color: #222;
 }
 
 .btn-primary {
-    border-color: #f2b3e1;
-    color: #fff;
-    background-color: #f2b3e1;
+    border-color: var(--COLOR_3);
+    color: var(--WHITE);
+    background-color: var(--COLOR_3);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -415,9 +425,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #f299da;
-    color: #fff;
-    background-color: #f299da;
+    border-color: var(--COLOR_1);
+    color: var(--WHITE);
+    background-color: var(--COLOR_1);
 }
 
 .btn-primary:active,
@@ -444,13 +454,13 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #f299da;
-    background-color: #f299da;
+    border-color: var(--COLOR_1);
+    background-color: var(--COLOR_1);
 }
 
 .btn-primary .badge {
-    color: #f299da;
-    background-color: #fff;
+    color: var(--COLOR_1);
+    background-color: var(--WHITE);
 }
 
 .btn {
@@ -467,23 +477,23 @@ fieldset[disabled] .btn-primary.active {
 
 ::-moz-selection {
     text-shadow: none;
-    color: #fff;
+    color: var(--WHITE);
     background: #222;
 }
 
 ::selection {
     text-shadow: none;
-    color: #fff;
+    color: var(--WHITE);
     background: #222;
 }
 
 img::selection {
-    color: #fff;
+    color: var(--WHITE);
     background: 0 0;
 }
 
 img::-moz-selection {
-    color: #fff;
+    color: var(--WHITE);
     background: 0 0;
 }
 
@@ -525,13 +535,13 @@ pre {
 sidebar {
 	float:right;
 	width:100%;
-	background-color: #f299da;
+	background-color: var(--COLOR_3);
 }
 widget {
 	width:100%;
 	margin-bottom:30px;
-	border-bottom:1px solid #f299da;
-	background-color: #f299da;
+	border-bottom:1px solid var(--COLOR_3);
+	background-color: var(--COLOR_3);
 }
 
 
