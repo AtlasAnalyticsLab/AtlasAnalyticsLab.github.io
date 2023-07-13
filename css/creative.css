@@ -80,7 +80,7 @@ p {
     line-height: 1.4;
     text-align: center;
     padding: 44px;
-    color: #333;
+    color: var(--WHITE);
   }
   
   
