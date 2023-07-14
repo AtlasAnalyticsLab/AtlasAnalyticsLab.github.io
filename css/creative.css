@@ -12,6 +12,7 @@
  --COLOR_5: #733944;
  --BLACK: #000000;
  --WHITE: #FFFFFF;
+ --BG: #93192A;
 }
 
 html,
@@ -229,7 +230,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../images/header.jpg);
+    background-image: url(../images/header_burgundy_logo.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -449,9 +450,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: var(--COLOR_3);
-    color: var(--WHITE);
-    background-color: var(--COLOR_3);
+    border-color: var(--WHITE);
+    color: var(--BG);
+    background-color: var(--WHITE);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
