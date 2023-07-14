@@ -69,12 +69,13 @@ p {
     font-size: 16px;
   }
 .bg-primary {
-    background-color: var(--COLOR_3);
+    color: var(--WHITE);
+    background-color: var(--BG);
 }
 
 .bg-dark {
     color: var(--WHITE);
-    background-color: var(--COLOR_4) ;
+    background-color: var(--BG) ;
 }
 
 .text-faded {
