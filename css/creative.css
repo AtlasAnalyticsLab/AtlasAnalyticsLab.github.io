@@ -64,7 +64,9 @@ p {
     font-size: 16px;
     line-height: 1.5;
 }
-
+.bold_font {
+    font-weight: bold;
+  }
 .bg-primary {
     background-color: var(--COLOR_3);
 }
@@ -211,7 +213,7 @@ header {
 
 header .header-content {
     position: relative;
-    top:50px;
+    top:80px;
     width: 100%;
     padding: 100px 15px;
     font-family: Inconsolata;
