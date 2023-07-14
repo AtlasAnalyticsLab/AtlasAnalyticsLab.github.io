@@ -66,6 +66,7 @@ p {
 }
 .bold_font {
     font-weight: bold;
+    font-size: 16px;
   }
 .bg-primary {
     background-color: var(--COLOR_3);
@@ -213,7 +214,7 @@ header {
 
 header .header-content {
     position: relative;
-    bottom:10px;
+    top:50px;
     width: 100%;
     padding: 100px 15px;
     font-family: Inconsolata;
@@ -427,6 +428,8 @@ fieldset[disabled] .btn-default.active {
     border-color: var(--WHITE);
     color: var(--BG);
     background-color: var(--WHITE);
+    position: relative;
+    top:50px;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
