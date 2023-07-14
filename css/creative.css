@@ -151,7 +151,7 @@ aside {
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        background-color: var(--WHITE);
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -180,12 +180,12 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: var(--WHITE);
+        color: var(--BG);
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: var(--FOCUS);
+        color: var(--BG);
     }
 
     .navbar-default.affix .nav > li>a,
