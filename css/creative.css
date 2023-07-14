@@ -116,7 +116,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: var(--WHITE);
+    color: var(--BG);
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
