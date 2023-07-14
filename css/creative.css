@@ -211,7 +211,7 @@ header {
 
 header .header-content {
     position: relative;
-    bottom:50px;
+    top:50px;
     width: 100%;
     padding: 100px 15px;
     font-family: Inconsolata;
