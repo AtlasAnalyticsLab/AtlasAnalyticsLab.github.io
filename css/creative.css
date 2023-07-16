@@ -430,7 +430,7 @@ fieldset[disabled] .btn-default.active {
     color: var(--BG);
     background-color: var(--WHITE);
     position: relative;
-    top:180px;
+    
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
