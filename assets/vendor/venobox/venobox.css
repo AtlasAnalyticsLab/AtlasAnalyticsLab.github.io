@@ -1,3 +1,16 @@
+
+/*color*/
+:root{
+    --COLOR_3: #59121F;
+    --COLOR_2: #733944;
+    --COLOR_1: #A65362;
+    --COLOR_4: #F23054;
+    --COLOR_5: #733944;
+    --BLACK: #000000;
+    --WHITE: #FFFFFF;
+    --BG: #93192A;
+    --FOCUS: #F9F8F8;
+   }
 /* ------ venobox.css --------*/
 .vbox-overlay *, .vbox-overlay *:before, .vbox-overlay *:after{
     -webkit-backface-visibility: hidden;
