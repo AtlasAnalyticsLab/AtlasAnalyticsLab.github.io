@@ -104,6 +104,34 @@ aside {
     width: 100%;
     margin: 0;
 }
+
+/*--------------------------------------------------------------
+# Container
+--------------------------------------------------------------*/
+section .container_portfolio {
+    background: rgba(0, 0, 0, 0);
+    padding: 30px;
+  }
+@media (max-width: 992px) {
+    #header .container_portfolio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  #header.header-top .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact .info-box i.bx {
+    font-size: 24px;
+    color: #dee2e6;
+    border-radius: 50%;
+    padding: 14px;
+    float: left;
+    background: rgba(255, 255, 255, 0.1);
+  }
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
