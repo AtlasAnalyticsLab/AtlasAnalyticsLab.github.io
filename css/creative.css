@@ -91,14 +91,18 @@ aside {
 }
 
 .par_left {
-    width: 400px; /* Adjust the width as per your preference */
+    width: 100%; /* Adjust the width as per your preference */
   }
   
 .par_left p {
     text-align: left;
+    width: 100%;
+    margin: 0;
   }
 .par_left br{
     text-align: left;
+    width: 100%;
+    margin: 0;
 }
 /*aside {*/
 /*  margin-top: 100px;*/
