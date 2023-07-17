@@ -90,6 +90,16 @@ aside {
     padding: 50px 0;
 }
 
+.par_left {
+    width: 400px; /* Adjust the width as per your preference */
+  }
+  
+.par_left p {
+    text-align: left;
+  }
+.par_left br{
+    text-align: left;
+}
 /*aside {*/
 /*  margin-top: 100px;*/
 /*  background-color: #f05f40;*/
