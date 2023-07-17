@@ -1207,13 +1207,13 @@ widget {
 .lecture-collapsible:after {
   content: '\271A'; /* Unicode character for "plus" sign (+) */
   font-size: 15px;
-  color: #f299da;
+  color: var(--BG);
   float: right;
   margin-left: 5px;
 }
 
 .lecture-active:after {
-  color: #f299da;
+  color: var(--COLOR_1);
   content: "\FF0D"; /* Unicode character for "minus" sign (-) */
   font-size: 15px;
 }
