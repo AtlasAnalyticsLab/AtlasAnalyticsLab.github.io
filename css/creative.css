@@ -239,12 +239,14 @@ section .container_portfolio {
   .portfolio .portfolio-wrap .portfolio-info h4 {
     font-size: 20px;
     color: #fff;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 600;
   }
   
   .portfolio .portfolio-wrap .portfolio-info p {
     color: #ffffff;
     font-size: 14px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     text-transform: uppercase;
     padding: 0;
     margin: 0;
@@ -257,6 +259,7 @@ section .container_portfolio {
   
   .portfolio .portfolio-wrap .portfolio-links a {
     color: #fff;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     margin: 0 2px;
     font-size: 28px;
     display: inline-block;
