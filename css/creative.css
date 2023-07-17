@@ -119,14 +119,14 @@ section .container_portfolio {
       align-items: center;
     }
   }
-  #header.header-top .container {
+  #header.header-top .container_portfolio {
     display: flex;
     align-items: center;
   }
 
   .contact .info-box i.bx {
     font-size: 24px;
-    color: #dee2e6;
+    color: var(--BLACK);
     border-radius: 50%;
     padding: 14px;
     float: left;
@@ -164,7 +164,7 @@ section .container_portfolio {
   }
   
   .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-    background: #1c7d32;
+    background: var(--BG);
   }
   
   .portfolio #portfolio-flters li:last-child {
