@@ -326,7 +326,7 @@ section .container_portfolio {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: var(--COLOR_3);
+    color: var(--WHITE);
 }
 
 .navbar-default .nav > li>a,
