@@ -107,6 +107,11 @@ aside {
 .par_left a{
     color: var(--WHITE)
 }
+.par_left img{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
 
 /*--------------------------------------------------------------
 # Container
