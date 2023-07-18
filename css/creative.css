@@ -501,14 +501,14 @@ header .header-content .header-content-inner p {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 650px;
+    max-width: 600px;
 }
 
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 80%;
     height: 100%;
     text-align: center;
     color: var(--COLOR_1);
@@ -522,7 +522,7 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
     position: absolute;
     top: 50%;
-    width: 100%;
+    width: 80%;
     text-align: center;
     transform: translateY(-50%);
 }
