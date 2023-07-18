@@ -108,9 +108,11 @@ aside {
     color: var(--WHITE)
 }
 .par_left img{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
+    position: absolute;
+    left: 50%;
+    border-style: solid; /* style de bordure solide */
+    border-width: 2px; /* épaisseur de 2 pixels */
+    border-color: var(--BG); 
 }
 
 /*--------------------------------------------------------------
