@@ -361,7 +361,7 @@ section .container_portfolio {
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        background-color: var(--BG);
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -370,12 +370,12 @@ section .container_portfolio {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: transparent;
+        color: var(--BG);
     }
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: var(--BG);
+        color: var(--WHITE);
     }
 
     .navbar-default .nav > li>a:hover,
