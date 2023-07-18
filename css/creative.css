@@ -355,7 +355,7 @@ section .container_portfolio {
 
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
-    background-color: transparent;
+    background-color: var(--BG);
 }
 
 @media(min-width:768px) {
