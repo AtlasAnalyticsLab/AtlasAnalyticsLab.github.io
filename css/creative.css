@@ -108,7 +108,7 @@ aside {
     color: var(--WHITE)
 }
 .par_left img{
-    position: absolute;
+    position: relative;
     left: 50%;
     border-style: solid; /* style de bordure solide */
     border-width: 2px; /* épaisseur de 2 pixels */
