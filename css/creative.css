@@ -372,7 +372,7 @@ section .container_portfolio {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: var(--BG);
+        color: var(--WHITE);
     }
 
     .navbar-default.affix {
