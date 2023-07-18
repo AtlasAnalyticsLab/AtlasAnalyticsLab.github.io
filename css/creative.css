@@ -104,6 +104,9 @@ aside {
     width: 100%;
     margin: 0;
 }
+.par_left a{
+    color: var(--WHITE)
+}
 
 /*--------------------------------------------------------------
 # Container
