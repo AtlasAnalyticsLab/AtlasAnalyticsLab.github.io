@@ -108,7 +108,7 @@ aside {
     color: var(--WHITE)
 }
 .par_left img{
-    position: absolute; /* Position absolue pour placer l'image au-dessus du texte */
+    position: relative; /* Position absolue pour placer l'image au-dessus du texte */
     top: 0; /* Définit la position verticale de l'image */
     left: 0;
     left: 50%;
