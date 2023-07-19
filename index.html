@@ -295,7 +295,10 @@
                                 while maintaining a low computational footprint. Extensive experiments are conducted on image classification tasks to showcase the consistent improvements of KMCL over the SOTA methods.
                               </p>
                             <p><strong>GitHub Repository</strong></p>: <a href="https://github.com/mahdihosseini/KMCL"><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>KMCL PyTorch implementation</span></a>
-                            
+                            <h4>Paper:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://arxiv.org/abs/2307.03967'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>End-to-End Supervised Multilabel Contrastive Learning</span></a></br>
+                        </div>
                     </div>
                 </div>
             </div>   
@@ -358,8 +361,55 @@
                             </div>
                 </div>
             </div> 
-            
-            
+
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Towards Robust and Automatic Hyper-Parameter Tunning
+                </span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Optimization for Machine Learning at NeurIPS2021 </p>
+                        <p><strong>Authors: </strong> Mathieu Tuli, Mahdi S. Hosseini, and Konstantinos N. Plataniotis.
+                            <p>
+                                <strong>Abstract: </strong> The task of hyper-parameter optimization (HPO) is burdened with heavy computational costs due
+                                to the intractability of optimizing both a model’s weights and its hyper-parameters simultaneously.
+                                In this work, we introduce a new class of HPO method and explore how the low-rank factorization
+                                of the convolutional weights of intermediate layers of a convolutional neural network can be used to
+                                define an analytical response surface [2] for optimizing hyper-parameters, using only training data.
+                                We quantify how this surface behaves as a surrogate to model performance and can be solved using
+                                a trust-region search algorithm, which we call autoHyper. The algorithm outperforms state-of-theart such as Bayesian Optimization and generalizes across model, optimizer, and dataset selection </p>
+                                <p><strong>GitHub Repository</strong></p>: <a href="https://github.com/MathieuTuli/autoHyperL"><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>autoHyper implementation</span></a>
+                                <h4>Paper:</h4>
+                                <div class="lecture-document-list">
+                                    <a href='https://opt-ml.org/papers/2021/paper17.pdf'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>Towards Robust and Automatic Hyper-Parameter Tunning</span></a></br>
+                                </div>
+                            </div>
+                </div>
+            </div> 
+
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">HistoKT: Cross Knowledge Transfer in Computational Pathology
+                </span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Accepted in International Conference on Acoustics, Speech and Signal Processing | ICASSP 2022 </p>
+                        <p><strong>Authors: </strong> Ryan Zhang*, Jiadai Zhu*, Stephen Yang*, Mahdi S. Hosseini*, Angelo Genovese, Lina Chen, Corwyn Rowsell,
+                            Savvas Damaskinos, Konstantinos N. Plataniotis. (*: equal contribution)
+                            <p>
+                                <strong>Abstract: </strong> The lack of well-annotated datasets in computational pathology (CPath) obstructs the application of deep learning techniques for classifying medical 
+                                images. %Since pathologist time is expensive, dataset curation is intrinsically difficult. Many CPath workflows involve transferring learned knowledge between various image domains through transfer learning. 
+                                Currently, most transfer learning research follows a model-centric approach, tuning network parameters to improve transfer results over few datasets. In this paper, we take a data-centric approach to the transfer 
+                                learning problem and examine the existence of generalizable knowledge between histopathological datasets. First, we create a standardization workflow for aggregating existing histopathological data. We then measure inter-domain 
+                                knowledge by training ResNet18 models across multiple histopathological datasets, and cross-transferring between them to determine the quantity and quality of innate shared knowledge. Additionally, we use weight distillation 
+                                to share knowledge between models without additional training. We find that hard to learn, multi-class datasets benefit most from pretraining, and a two stage learning framework incorporating a large source domain such as ImageNet 
+                                allows for better utilization of smaller datasets. Furthermore, we find that weight distillation enables models trained on purely histopathological features to outperform models using external natural image data. </p>
+                                
+                                <h4>Paper:</h4>
+                                <div class="lecture-document-list">
+                                    <a href='https://arxiv.org/abs/2201.11246'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>HistoKT: Cross Knowledge Transfer in Computational Pathology</span></a></br>
+                                </div>
+                            </div>
+                </div>
+            </div>            
         </div>
     </section>
 
@@ -373,7 +423,7 @@
             </div>
             
             <div class="lecture-box" style="">
-                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">COMP 6721: Applied Artificial Intelligence</span></button>
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">COMP 6721: Applied Artificial Intelligence (Graduate level)</span></button>
                 <div class="lecture-content">
                     <div class="padding-div">
                         <p class="text-muted" style="font-size: 12px">Fall 2023 | Lecture & Lab & Project</p>
@@ -382,14 +432,23 @@
                 </div>
             </div>          
             <div class="lecture-box" style="margin-bottom: 40px;">
-                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">COMP 6321: Machine Learning</span></button>
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">COMP 6321: Machine Learning (Graduate level)</span></button>
                 <div class="lecture-content">
                     <div class="padding-div">
                         <p class="text-muted" style="font-size: 12px">Fall 2023 | Lecture & Lab & Project</p>
                         <p>Introduction to the fundamentals of machine learning. Linear models: linear and polynomial regression, overfitting, model selection, logistic regression, naive Bayes. Non-linear models: decision trees, instance-based learning, boosting, neural networks. Support vector machines and kernels. Computational learning theory. Experimental methodology, sources of error. Structured models: graphical models, deep belief networks. Unsupervised learning: k-means, mixture models, density estimation, expectation maximization, principle component analysis, eigenmaps and other dimensionality reduction methods. Learning in dynamical systems: hidden Markov models and other types of temporal/sequence models. Reinforcement learning. Survey of machine learning and its applications. A project is required.</p>
                     </div>
                 </div>
-            </div>          
+            </div> 
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">COMP 432: Machine Learning (Undergraduate level)</span></button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Fall 2023 | Lecture & Lab & Project</p>
+                        <p>Introduction to the fundamentals of machine learning.</p>
+                    </div>
+                </div>
+            </div>           
         </div>
     </section>
 
