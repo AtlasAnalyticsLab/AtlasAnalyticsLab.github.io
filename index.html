@@ -276,20 +276,25 @@
             </div>         
             
             <div class="lecture-box" style="">
-                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">Kernel-Based Similarity Learning for Multilabel Image Representation </span></button>
+                <button type="button" class="lecture-collapsible"><span class="fa fa-2x fa-university text-primary"></span><span class="lecture-title">End-to-End Supervised Multilabel Contrastive Learning
+                </span></button>
                 <div class="lecture-content">
                     <div class="padding-div">
                         <p class="text-muted" style="font-size: 12px">Neural Information Processing Systems (NeurIPS)| 2023 </p>
-                        <p><strong>Authors: </strong> Mahdi S. Hosseini, Ahmad Sajedi, Samir Khaki and Konstantinos N. Plataniotis
+                        <p><strong>Authors: </strong> Ahmad Sajedi, Samir Khaki, Konstantinos N. Plataniotis, Mahdi S. Hosseini
                             </p>
                             <p>
-                                <strong>Abstract: </strong> Multilabel representation learning is recognized as a challenging problem that can be associated with either label dependencies between object categories or 
-                                data-related issues (e.g., inherent imbalance of positive/negative samples). Recent advances address these challenges from model- and data-centric viewpoints. In model-centric, the label correlation 
-                                is obtained by an external model design (e.g., graph CNN) to incorporate an inductive bias for training. However, this leads to high computation costs as well as failure to design an end-to-end training 
-                                framework. On the contrary, in data-centric, the realistic nature of the dataset is considered for improving the classification while ignoring the label dependencies. In this paper, we propose a new end-to-end training framework–dubbed KMCL 
-                                (Kernel-based Mutlilabel Contrastive Learning)–to address the shortcomings of both model- and data-centric designs. KMCL is implemented in two parts, by first transforming the embedded features into a mixture of exponential kernels in Gaussian RKHS, followed by encoding an objective loss that is comprised of (a) reconstruction loss to reconstruct kernel representation, (b) asymmetric classification loss to address the inherent imbalance problem, and (c) contrastive loss to capture label correlation. The KMCL models the uncertainty of the feature 
-                                encoder while maintaining a low computational footprint. Extensive experiments are conducted on both computer vision and medical image classification tasks to showcase the consistent improvement of KMCL over the SOTA methods.
+                                <strong>Abstract: </strong> Multilabel representation learning is recognized as a challenging problem that can be associated with either label dependencies 
+                                between object categories or data-related issues such as the inherent imbalance of positive/negative samples. Recent advances address these challenges from model- 
+                                and data-centric viewpoints. In model-centric, the label correlation is obtained by an external model designs (e.g., graph CNN) to incorporate an inductive bias for 
+                                training. However, they fail to design an end-to-end training framework, leading to high computational complexity. On the contrary, in data-centric, the realistic 
+                                nature of the dataset is considered for improving the classification while ignoring the label dependencies. In this paper, we propose a new end-to-end training framework -- 
+                                dubbed KMCL (Kernel-based Mutlilabel Contrastive Learning) -- to address the shortcomings of both model- and data-centric designs. The KMCL first transforms the embedded features 
+                                into a mixture of exponential kernels in Gaussian RKHS. It is then followed by encoding an objective loss that is comprised of (a) reconstruction loss to reconstruct kernel representation, 
+                                (b) asymmetric classification loss to address the inherent imbalance problem, and (c) contrastive loss to capture label correlation. The KMCL models the uncertainty of the feature encoder 
+                                while maintaining a low computational footprint. Extensive experiments are conducted on image classification tasks to showcase the consistent improvements of KMCL over the SOTA methods.
                               </p>
+                            <p><strong>GitHub Repository</strong></p>: <a href="https://github.com/mahdihosseini/KMCL"><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>KMCL PyTorch implementation</span></a>
                             
                     </div>
                 </div>
