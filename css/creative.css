@@ -333,6 +333,11 @@ section .container_portfolio {
     color: var(--BG);
 }
 
+.navbar-default .navbar-header .navbar-brand .img-header {
+    width: auto;
+    height: auto;
+}
+
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: var(--WHITE);
