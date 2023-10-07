@@ -333,11 +333,6 @@ section .container_portfolio {
     color: var(--BG);
 }
 
-.navbar-default .navbar-header .navbar-brand .img-header {
-    width: auto;
-    height: auto;
-}
-
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: var(--WHITE);
@@ -469,7 +464,7 @@ header .header-content .header-content-inner p {
 
 header .header-content .title-bckg h1 {
     font-size: 48px;
-    background-image: url('../images/header2.jpg'); /* Replace with your font image */
+    background-image: url('./images/header2.jpg'); /* Replace with your font image */
     background-size: cover;
     background-clip: text;
     
@@ -480,7 +475,7 @@ header .header-content .title-bckg h1 {
 
 header .header-content .title-bckg p {
     font-size: 16px;
-    background-image: url('../images/header.jpg'); /* Replace with your font image */
+    background-image: url('./images/header.jpg'); /* Replace with your font image */
     background-clip: text;
     color: transparent;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Shadow for the text */
