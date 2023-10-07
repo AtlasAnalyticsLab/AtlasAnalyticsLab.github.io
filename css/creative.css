@@ -113,6 +113,14 @@ aside {
     border-color: var(--BG); 
 }
 
+
+.title-bckg {
+    font-size: 48px;
+    background-image: url('./images/header.png'); /* Replace with your font image */
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Shadow for the text */
+}
 /*--------------------------------------------------------------
 # Container
 --------------------------------------------------------------*/
@@ -415,7 +423,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../images/BG_last.png);
+    background-image: url(../images/bckg.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
