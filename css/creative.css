@@ -462,7 +462,7 @@ header .header-content .header-content-inner p {
 
 header .header-content .title-bckg h1 {
     font-size: 48px;
-    background-image: url('./images/header2.jpg'); /* Replace with your font image */
+    background-image: url('./images/header.jpg'); /* Replace with your font image */
     background-size: cover;
     background-clip: text;
     
