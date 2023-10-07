@@ -463,9 +463,12 @@ header .header-content .header-content-inner p {
 header .header-content .title-bckg h1 {
     font-size: 48px;
     background-image: url('./images/header.jpg'); /* Replace with your font image */
+    background-size: cover;
     background-clip: text;
+    
+    -webkit-background-clip: text;
     color: transparent;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Shadow for the text */
+    
 }
 
 header .header-content .title-bckg p {
