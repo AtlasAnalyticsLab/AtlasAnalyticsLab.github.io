@@ -24,8 +24,6 @@ body {
 
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif, Inconsolata;
-    display: flex;
-    align-items: center;
 }
 
 hr {
