@@ -438,10 +438,10 @@ header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
-    background: url('./images/header.jpg'); /* Replace with your font image */
+    background: url('./images/header2.jpg'); /* Replace with your font image */
     background-size: cover;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
     
 }
 
@@ -452,10 +452,10 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
-    background: url('./images/header.jpg'); /* Replace with your font image */
+    background: url('./images/header2.jpg'); /* Replace with your font image */
     background-size: cover;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 
