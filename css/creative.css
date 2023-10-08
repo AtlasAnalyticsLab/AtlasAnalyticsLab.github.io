@@ -453,11 +453,10 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
-    font-weight: 300;
-    ::selection {
-        background-color: var(--COLOR_3);
-        color: var(--WHITE);
-      }
+    background: url('./images/header.jpg'); /* Replace with your font image */
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 header .header-content .header-content-inner .title-bckg h1 {
