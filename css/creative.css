@@ -441,7 +441,7 @@ header .header-content .header-content-inner h1 {
     background: url('./images/header2.jpg'); /* Replace with your font image */
     background-size: cover;
     background-clip: text;
-    color: transparent;
+    color: var(--WHITE);
     
 }
 
@@ -455,7 +455,7 @@ header .header-content .header-content-inner p {
     background: url('./images/header2.jpg'); /* Replace with your font image */
     background-size: cover;
     background-clip: text;
-    color: transparent;
+    color: var(--WHITE);
 }
 
 
