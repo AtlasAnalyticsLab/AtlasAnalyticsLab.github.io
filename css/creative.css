@@ -465,7 +465,11 @@ header .header-content .header-content-inner p {
 header .header-content .title-bckg h1 {
     font-size: 48px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-image: url('./images/header.jpg'); /* Replace with your font image */
+=======
+    background-image: url('./images/header2.jpg'); /* Replace with your font image */
+>>>>>>> parent of 72e1202 (updates navbar)
 =======
     background-image: url('./images/header2.jpg'); /* Replace with your font image */
 >>>>>>> parent of 72e1202 (updates navbar)
