@@ -331,6 +331,13 @@ section .container_portfolio {
     color: var(--BG);
 }
 
+.navbar-default .navbar-header .navbar-logo {
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    color: var(--BG);
+}
+
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: var(--WHITE);
@@ -438,7 +445,7 @@ header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
-    background: url('./images/header2.jpg'); /* Replace with your font image */
+    background: url(../images/header2.jpg); /* Replace with your font image */
     background-size: cover;
     background-clip: text;
     color: var(--WHITE);
@@ -452,7 +459,7 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
-    background: url('./images/header2.jpg'); /* Replace with your font image */
+    background: url(../images/header2.jpg); /* Replace with your font image */
     background-size: cover;
     background-clip: text;
     color: var(--WHITE);
