@@ -489,13 +489,19 @@ header .header-content .header-content-inner p {
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
-        max-width: 1000px;
+        max-width: 900px;
     }
 
+    header .header-content .header-content-inner h1 {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 70%;
+        font-size: 18px;
+    }
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
-        max-width: 80%;
+        max-width: 70%;
         font-size: 18px;
     }
 }
